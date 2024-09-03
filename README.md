@@ -8,10 +8,10 @@ This project is a comprehensive home automation system that integrates Arduino a
 
 - **Sensor Integration**: Monitors temperature, smoke, and motion using respective sensors.
 - **Appliance Control**: Controls LED bulbs and a fan through relay modules.
+- **Time-Based Control**: Manages the operational time for appliances, allowing users to set specific on/off times for the bulb and fan.
 - **Data Transmission**: Real-time data transmission to Firebase.
 - **Alert Mechanism**: Buzzer alerts for smoke detection.
 - **Power Consumption Monitoring**: Calculates energy consumption and estimated electricity bills.
-- **RTOS Integration**: Manages tasks efficiently with Real-Time Operating System (RTOS).
 - **Mobile App Interface**: Allows users to control devices, monitor sensor data, and receive alerts.
 
 ## Hardware Components
@@ -25,6 +25,7 @@ This project is a comprehensive home automation system that integrates Arduino a
 - **LED Bulbs**
 - **Fan**
 - **Buzzer**
+- **RTC DS1302 Real Time Clock Sensor Module**
 
 ## Software
 
@@ -61,10 +62,13 @@ Here is a screenshot of the mobile app interface:
    - Use the mobile app to turn LED bulbs and the fan on/off.
    - Monitor temperature, smoke levels, and motion detection.
 
-2. **Receive Alerts**:
+2. **Manage Operational Time**:
+   - Set specific times for the bulb and fan to be turned on and off using the mobile app.
+
+3. **Receive Alerts**:
    - Get notifications on smoke detection and other critical events.
 
-3. **Monitor Power Consumption**:
+4. **Monitor Power Consumption**:
    - View real-time energy consumption and estimated electricity bills through the app.
 
 ## Code
