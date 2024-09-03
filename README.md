@@ -53,7 +53,7 @@ This project is a comprehensive home automation system that integrates Arduino a
 
 Here is a screenshot of the mobile app interface:
 
-![App Interface](path/to/SCR-20240903-mhdu.png)
+![App Interface](SCR-20240903-mhdu.png)
 
 ## Usage
 
